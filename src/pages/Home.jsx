@@ -8,7 +8,6 @@ import Price from "../components/price/Price";
 import Rule from "../components/rule/Rule";
 import Templete from "../components/templete/Templete";
 import Templetes from "../components/templetes/Templetes";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -23,10 +22,6 @@ function Home() {
       <Card />
       <Contact />
       <Finish />
-
-      <Link to="/second">
-        <button>Ikkinchi sahifaga o'tish</button>
-      </Link>
     </>
   );
 }
