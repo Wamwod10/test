@@ -1,0 +1,20 @@
+.templetes {
+    margin-top: 200px;
+    
+    &__box {
+        background: url(4.png) no-repeat center center/cover;
+        position: relative;
+    }
+    
+    &__txt {
+        font-size: 40px;
+        font-weight: 700;
+        color: #6A3491;
+        background: #fff;
+        padding: 30px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 0 0 20px 0;
+    }
+}

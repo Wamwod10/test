@@ -1,0 +1,49 @@
+.card {
+    margin-top: 200px;
+    
+    h2 {
+        max-width: 800px;
+    }
+    
+    img {
+        margin-top: 40px;
+    }
+    
+    &__txt {
+        margin-top: 20px;
+        max-width: 700px;
+        font-size: 17px;
+    }
+    
+    &__text {
+        font-size: 17px;
+        color: #241C1C;
+        margin-top: 20px;
+    }
+    
+    &__box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        row-gap: 8px;
+    }
+    
+    &__box-text {
+        font-size: 17px;
+        color: #241C1C;
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+    }
+    
+    &__text-first {
+        color: #241C1C;
+        font-size: 17px;
+        max-width: 500px;
+        margin-top: 20px;
+    }
+    
+    &__second-box {
+        margin-top: 200px;
+    }
+}

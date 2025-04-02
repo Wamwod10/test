@@ -1,0 +1,41 @@
+.finish {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+    &__title {
+        color: #6A3491;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    &__txt {
+        font-size: 17px;
+        max-width: 700px;
+        color: #241c1c;
+        margin-top: 30px;
+    }
+    
+    &__div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 143px;
+        height: 75px;
+        border: 1px solid #E8E8E8;
+        border-radius: 20px;
+        cursor: pointer;
+        background: #fff;
+        transition: 0.3s;
+        
+        &:hover {
+            background: #A684BE;
+        }
+    }
+    
+    &__box {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

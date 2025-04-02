@@ -1,0 +1,78 @@
+.header {
+    margin-top: 100px;
+    // margin-bottom: 100px;
+    
+    &__box {
+        z-index: 99;
+    }
+
+    &__title {
+        font-size: 70px;
+        max-width: 900px;
+        height: 170px;
+        font-weight: 600;
+        line-height: 120%;
+        color: #241C1C;
+        margin-bottom: 40px;
+    }
+
+    &__link {
+        font-size: 17px;
+        color: #FFF2FF;
+        background: #A684BE;
+        padding: 15px 32px;
+        border-radius: 6px;
+        font-weight: 500;
+        z-index: 999;
+        border: 2px solid transparent;
+        transition: 0.3s;
+        
+        &:hover {
+            border: 2px solid #A684BE;
+            background: transparent;
+            color: #A684BE;
+        }
+    }
+
+    &__second-box {
+        width: 100%;
+        height: 510px;
+        background: #A684BE;
+        border-radius: 20px;
+        margin-top: 40px;
+        position: relative;
+        z-index: -99;
+    }
+
+    &__second-text {
+        position: absolute;
+        left: 0;
+        font-size: 17px;
+        color: #241C1C;
+        max-width: 450px;
+        background: #fff;
+        padding: 30px;
+        border-radius: 0px 0px 17px 0;
+        z-index: 999;
+    }
+    
+    &__second-txt {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-size: 17px;
+        color: #241C1C;
+        max-width: 450px;
+        background: #fff;
+        padding: 30px;
+        border-radius: 17px 0px 0px 0;
+        z-index: 999;
+    }
+    
+    &__second-img {
+        position: absolute;
+        bottom: -15px;
+        right: 0px;
+        z-index: -99;
+    }
+}
